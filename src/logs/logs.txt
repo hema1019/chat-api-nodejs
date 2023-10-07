@@ -1,0 +1,111 @@
+=================== ERROR 10/2/2023, 1:47:01 PM ===================
+{"status":400,"error":"User does not exist","message":"You need to register before login"}
+
+=================== ERROR 10/2/2023, 1:47:06 PM ===================
+{"status":400,"error":"User does not exist","message":"You need to register before login"}
+
+=================== ERROR 10/2/2023, 5:33:57 PM ===================
+{"name":"SequelizeUniqueConstraintError","errors":[{"message":"email must be unique","type":"unique violation","path":"email","value":"hugoma019@gmail.com","origin":"DB","instance":{"id":null,"password":"$2b$10$TdyPicAskfeXncIrAOeF.eMB4OqxSiesAsXzoxW2vBDIxEuOmR2aO","email":"hugoma019@gmail.com","lastname":"Moya Agüero","firstname":"Hugo Eliécer","updatedAt":"2023-10-02T23:33:57.716Z","createdAt":"2023-10-02T23:33:57.716Z"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}],"parent":{"length":211,"name":"error","severity":"ERROR","code":"23505","detail":"Key (email)=(hugoma019@gmail.com) already exists.","schema":"public","table":"Users","constraint":"Users_email_key","file":"nbtinsert.c","line":"671","routine":"_bt_check_unique","sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";","parameters":["Hugo Eliécer","Moya Agüero","hugoma019@gmail.com","$2b$10$TdyPicAskfeXncIrAOeF.eMB4OqxSiesAsXzoxW2vBDIxEuOmR2aO","2023-10-02 23:33:57.716 +00:00","2023-10-02 23:33:57.716 +00:00"]},"original":{"length":211,"name":"error","severity":"ERROR","code":"23505","detail":"Key (email)=(hugoma019@gmail.com) already exists.","schema":"public","table":"Users","constraint":"Users_email_key","file":"nbtinsert.c","line":"671","routine":"_bt_check_unique","sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";","parameters":["Hugo Eliécer","Moya Agüero","hugoma019@gmail.com","$2b$10$TdyPicAskfeXncIrAOeF.eMB4OqxSiesAsXzoxW2vBDIxEuOmR2aO","2023-10-02 23:33:57.716 +00:00","2023-10-02 23:33:57.716 +00:00"]},"fields":{"email":"hugoma019@gmail.com"},"sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";"}
+
+=================== ERROR 10/2/2023, 10:03:59 PM ===================
+{}
+
+=================== ERROR 10/3/2023, 2:53:40 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:43 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:44 PM ===================
+=================== ERROR 10/3/2023, 2:53:45 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:45 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:45 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:45 PM ===================
+=================== ERROR 10/3/2023, 2:53:45 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:45 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:46 PM ===================
+=================== ERROR 10/3/2023, 2:53:47 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:53:47 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:13 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:16 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:16 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:17 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:17 PM ===================
+=================== ERROR 10/3/2023, 2:54:17 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:17 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:17 PM ===================
+=================== ERROR 10/3/2023, 2:54:18 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:53 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:54 PM ===================
+=================== ERROR 10/3/2023, 2:54:54 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:55 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:54:55 PM ===================
+=================== ERROR 10/3/2023, 2:55:55 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:55:56 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:58:28 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 2:58:51 PM ===================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/3/2023, 3:00:52 PM ===================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"email\": \"phoebe019@gmail.com\"\r\n    \"password\": \"Phoebe123!\"\r\n}","type":"entity.parse.failed"}
+
+=================== ERROR 10/3/2023, 9:10:28 PM ===================
+=================== ERROR 10/3/2023, 9:15:57 PM ===================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"email\": \"hugoma019@gmail.com\",\r\n    \"password\": Hugo0123!\r\n}","type":"entity.parse.failed"}
+

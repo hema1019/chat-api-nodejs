@@ -1,0 +1,68 @@
+=================== ERROR 10/6/2023, 11:34:17 AM ===================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]}
+
+=================== ERROR 10/6/2023, 11:38:21 AM ===================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]}
+
+=================== ERROR 10/6/2023, 12:55:11 PM ===================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T01:04:35.000Z"}
+
+=================== ERROR 10/6/2023, 12:55:12 PM ===================
+req: GET /api/v1/conversations/5 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T01:04:35.000Z"}
+
+=================== ERROR 10/6/2023, 12:55:12 PM ===================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T01:04:35.000Z"}
+
+=================== ERROR 10/6/2023, 12:55:12 PM ===================
+req: GET /api/v1/conversations/5 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T01:04:35.000Z"}
+
+=================== ERROR 10/6/2023, 12:56:24 PM ===================
+req: PUT /api/v1/users/5 body: {} 
+res: status: undefined, {"ststus":401,"message":"No authorization header"}
+
+=================== ERROR 10/6/2023, 12:57:48 PM ===================
+req: PUT /api/v1/users/5 body: {} 
+res: status: undefined, {"name":"MulterError","message":"File too large","code":"LIMIT_FILE_SIZE","field":"avatar","storageErrors":[]}
+
+=================== ERROR 10/6/2023, 1:10:26 PM ===================
+req: PUT /api/v1/users/1 body: {} 
+res: status: undefined, {"name":"MulterError","message":"File too large","code":"LIMIT_FILE_SIZE","field":"avatar","storageErrors":[]}
+
+=================== ERROR 10/6/2023, 1:10:56 PM ===================
+req: PUT /api/v1/users/1 body: {} 
+res: status: undefined, {"name":"MulterError","message":"File too large","code":"LIMIT_FILE_SIZE","field":"avatar","storageErrors":[]}
+
+=================== ERROR 10/6/2023, 1:10:58 PM ===================
+req: PUT /api/v1/users/1 body: {} 
+res: status: undefined, {"name":"MulterError","message":"File too large","code":"LIMIT_FILE_SIZE","field":"avatar","storageErrors":[]}
+
+=================== ERROR 10/6/2023, 7:02:28 PM ===================
+req: GET /api/v1/messages/conversation/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T20:09:23.000Z"}
+
+req: GET /api/v1/messages/conversation/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T20:09:23.000Z"}
+
+=================== ERROR 10/6/2023, 7:02:28 PM ===================
+=================== ERROR 10/6/2023, 7:02:28 PM ===================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T20:09:23.000Z"}
+
+=================== ERROR 10/6/2023, 7:02:28 PM ===================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T20:09:23.000Z"}
+
+=================== ERROR 10/6/2023, 7:02:28 PM ===================
+req: GET /api/v1/conversations/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T20:09:23.000Z"}
+
+=================== ERROR 10/6/2023, 7:02:28 PM ===================
+req: GET /api/v1/conversations/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T20:09:23.000Z"}
+

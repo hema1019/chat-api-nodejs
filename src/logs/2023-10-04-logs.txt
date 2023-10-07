@@ -1,0 +1,120 @@
+=================== ERROR 10/4/2023, 1:59:37 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:39 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:40 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:40 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:40 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:40 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:40 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:41 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 1:59:41 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+=================== ERROR 10/4/2023, 2:09:48 PM ===================
+req: POST /api/v1/users/login body: {"password":"Phoebe123!","email":"phoebe019@gmail.com"} 
+res: status: undefined, {}
+
+=================== ERROR 10/4/2023, 4:15:32 PM ===================
+req: GET /api/v1/messages/conversation/1 body: {} 
+res: status: undefined, {}
+
+=================== ERROR 10/4/2023, 4:33:30 PM ===================
+req: GET /api/v1/messages/conversation/1 body: {} 
+res: status: undefined, {}
+
+=================== ERROR 10/4/2023, 5:30:48 PM ===================
+req: POST /api/v1/conversations body: {"userId":1,"participantId":5} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:30:49 PM ===================
+req: POST /api/v1/conversations body: {"userId":1,"participantId":2} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:30:51 PM ===================
+req: POST /api/v1/conversations body: {"userId":1,"participantId":3} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:30:51 PM ===================
+req: POST /api/v1/conversations body: {"userId":1,"participantId":4} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:31:23 PM ===================
+req: POST /api/v1/conversations body: {"userId":1,"participantId":5} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:43:02 PM ===================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:43:02 PM ===================
+req: GET /api/v1/conversations/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:43:02 PM ===================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 5:43:02 PM ===================
+req: GET /api/v1/conversations/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-04T22:16:33.000Z"}
+
+=================== ERROR 10/4/2023, 6:50:40 PM ===================
+req: GET /api/v1/messages/conversation/4 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:50:47 PM ===================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:50:47 PM ===================
+req: GET /api/v1/messages/conversation/8 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:50:49 PM ===================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:56:05 PM ===================
+req: GET /api/v1/messages/conversation/8 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:56:06 PM ===================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:56:07 PM ===================
+req: GET /api/v1/messages/conversation/4 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:56:13 PM ===================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
+=================== ERROR 10/4/2023, 6:56:14 PM ===================
+req: GET /api/v1/messages/conversation/8 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-05T00:43:02.000Z"}
+
